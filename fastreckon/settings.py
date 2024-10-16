@@ -127,8 +127,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Authentication Setup
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrapa5'
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
