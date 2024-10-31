@@ -1,49 +1,49 @@
-# FastReckon: Your Personal Financial Management Solution
 
-    FastReckon offers a sophisticated solution for personal financial management by incorporating the corporate practice of double-ledger accounting, all while ensuring a user-friendly experience.
+# MasteryTimer: Track Your Journey to 10,000 Hours of Practice
+
+MasteryTimer is designed to support your journey to mastery by offering a dedicated tool for tracking the progress of your practice hours. Inspired by the 10,000-hour rule, it provides a simple, intuitive way to record and monitor time spent on skill-building.
 
 ## 🚀 Key Features
-- **Easy Bookkeeping Input**: Streamlined forms for quick and easy data entry.
-- **Comprehensive Financial Reports**: Generate insightful reports to analyze your financial health.
-- **Double-Ledger Accounting**: Stay organized and accountable with a robust accounting method.
-- **User-Friendly Interface**: Designed with user experience in mind, making finance management accessible to everyone.
+- **Effortless Time Tracking**: Log practice hours with ease to stay on top of your progress.
+- **Insightful Progress Reports**: Visualize your journey with reports that show how close you are to mastery.
+- **Countdown Timer**: Stay motivated with a live countdown to your 10,000-hour goal.
+- **User-Friendly Design**: Created with a focus on simplicity, making tracking hours straightforward and accessible.
 
 ## 🌟 Benefits
 
-- **Stay Organized**: Keep your financial transactions organized in one place.
-- **Informed Decision Making**: Utilize in-depth analysis and reports to make smarter financial decisions.
-- **Customizable**: Tailor the application to fit your specific financial needs.
+- **Stay Focused on Goals**: Easily see how your practice is contributing to long-term skill development.
+- **Track Progress Over Time**: View cumulative hours and patterns to identify areas for improvement.
+- **Customizable Experience**: Adjust settings to match your unique practice schedule.
 
 ## 📦 Installation
 
-To get started with FastReckon, follow these steps:
+To get started with MasteryTimer, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Thee5176/FastReckon.git
-   cd FastReckon
+   git clone https://github.com/Thee5176/MasteryTimer.git
+   cd MasteryTimer
 
 ## 📈 Development
 
-### Set up Phrase
+### Setup Phase
 * branch : `setup`
-* objective : set up developing environment
-    - User management(login/logout/password)
+* objective : set up the development environment
+    - User management (login/logout/password)
     - Custom user admin interface
-    - Create base
+    - Create a base structure
     - Static files management using Whitenoise
-    - Email notification using SendGrid
+    - Email notifications using SendGrid
     - Beautiful templates using Bootstrap
-    - hosting with Gunicorn on Heroku
+    - Hosting with Gunicorn on Heroku
 
-
-### MVP Phrase
+### MVP Phase
 * branch : `main`
-* objective : 
-    - Implement CRUD operations for transaction management
-    - Create a normalized model for transaction data
-    - transaction records in a user-friendly table view
-    - Import CSV file to the database for easy bulk uploads
+* objective :
+    - Implement CRUD operations for time entry management
+    - Create a normalized model for time data
+    - Display recorded hours in a user-friendly table view
+    - Import CSV files to the database for bulk uploads of practice logs
 
 ## 📄 License
 This project is licensed under the MIT License. See the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for more details.
